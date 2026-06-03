@@ -19,7 +19,7 @@ public class CategoryEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID categoryId;
+    private UUID categoryIdEntity;
 
-    private String name;
+    private String nameEntity;
 }

@@ -21,24 +21,24 @@ public class BookEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID bookId;
+    private UUID bookIdEntity;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "catalog_id")
-    private CatalogEntity catalog;
+    private CatalogEntity catalogEntity;
 
-    private String title;
-    private String isbn;
-    private String description;
-    private BigDecimal price;
-    private UUID authorId;
-    private UUID categoryId;
-    private UUID editorId;
-    private Integer publicationYear;
-    private Integer pageCount;
-    private String language;
-    private String coverUrl;
-    private BookStatusEntity bookStatus;
-    private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
+    private String titleEntity;
+    private String isbnEntity;
+    private String descriptionEntity;
+    private BigDecimal priceEntity;
+    private UUID authorIdEntity;
+    private UUID categoryIdEntity;
+    private UUID editorIdEntity;
+    private Integer publicationYearEntity;
+    private Integer pageCountEntity;
+    private String languageEntity;
+    private String coverUrlEntity;
+    private BookStatusEntity bookStatusEntity;
+    private LocalDateTime createdAtEntity;
+    private LocalDateTime updatedAtEntity;
 }

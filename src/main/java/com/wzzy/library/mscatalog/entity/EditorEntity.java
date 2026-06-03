@@ -18,7 +18,7 @@ public class EditorEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID editorId;
+    private UUID editorIdEntity;
 
-    private String name;
+    private String nameEntity;
 }

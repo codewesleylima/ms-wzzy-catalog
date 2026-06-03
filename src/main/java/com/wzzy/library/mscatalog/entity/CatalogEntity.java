@@ -20,19 +20,19 @@ public class CatalogEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID catalogId;
+    private UUID catalogIdEntity;
 
-    private String catalogName;
-    private String description;
-    private String status;
+    private String catalogNameEntity;
+    private String descriptionEntity;
+    private String statusEntity;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "catalog_id")
-    private List<BookEntity> books;
+    private List<BookEntity> booksEntity;
 
     @Column(nullable = false)
-    private LocalDateTime createdAt = LocalDateTime.now();
+    private LocalDateTime createdAtEntity = LocalDateTime.now();
 
     @Column(nullable = false)
-    private LocalDateTime updatedAt = LocalDateTime.now();
+    private LocalDateTime updatedAtEntity = LocalDateTime.now();
 }
