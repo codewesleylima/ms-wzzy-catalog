@@ -17,11 +17,11 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CatalogEntity {
+public class BookEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID CatalogId;
+    private UUID bookId;
     private String title;
     private String isbn;
     private String description;
@@ -33,7 +33,7 @@ public class CatalogEntity {
     private Integer pageCount;
     private String language;
     private String coverUrl;
-    private BookStatusEntity bookStatusEntity;
+    private BookStatusEntity bookStatus;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

@@ -23,6 +23,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
     implementation 'me.paulschwarz:spring-dotenv:2.5.4'
+    implementation 'org.mapstruct:mapstruct:1.5.5.Final'            // versão exemplo
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
+
 
     // Datadog APM tracing
     implementation 'com.datadoghq:dd-trace-api:1.+'

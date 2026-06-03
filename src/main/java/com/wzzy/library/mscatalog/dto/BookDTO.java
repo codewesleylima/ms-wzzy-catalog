@@ -16,12 +16,14 @@ public class BookDTO {
     private String isbnDTO;
     private String descriptionDTO;
     private BigDecimal priceDTO;
-    private Long authorIdDTO;
-    private Long categoryIdDTO;
-    private Long editorIdDTO;
+    private UUID authorIdDTO;
+    private UUID categoryIdDTO;
+    private UUID editorIdDTO;
     private Integer publicationYearDTO;
     private Integer pageCountDTO;
     private String languageDTO;
     private String coverUrlDTO;
-    private String statusDTO;
+    private String bookStatusDTO;
+    private Long createdAtDTO;
+    private Long updatedAtDTO;
 }

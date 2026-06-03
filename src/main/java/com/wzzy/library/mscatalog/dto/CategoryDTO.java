@@ -13,5 +13,4 @@ public class CategoryDTO {
 
     private UUID categoryIdDTO;
     private String nameDTO;
-    private String descriptionDTO;
 }

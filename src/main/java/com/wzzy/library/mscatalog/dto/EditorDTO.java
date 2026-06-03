@@ -13,6 +13,4 @@ public class EditorDTO {
 
     private UUID editorIdDTO;
     private String nameDTO;
-    private String countryDTO;
-    private String descriptionDTO;
 }
