@@ -22,6 +22,11 @@ public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID bookId;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "catalog_id")
+    private CatalogEntity catalog;
+
     private String title;
     private String isbn;
     private String description;
