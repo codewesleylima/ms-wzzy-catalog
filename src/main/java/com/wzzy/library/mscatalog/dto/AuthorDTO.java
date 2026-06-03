@@ -11,8 +11,8 @@ import java.util.UUID;
 @AllArgsConstructor
 public class AuthorDTO {
 
-    private UUID id;
-    private String name;
-    private String biography;
-    private LocalDate birthDate;
+    private UUID authorIdDTO;
+    private String nameDTO;
+    private String biographyDTO;
+    private LocalDate birthDateDTO;
 }

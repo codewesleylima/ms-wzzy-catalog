@@ -11,17 +11,17 @@ import java.util.UUID;
 @AllArgsConstructor
 public class BookDTO {
 
-    private UUID id;
-    private String title;
-    private String isbn;
-    private String description;
-    private BigDecimal price;
-    private Long authorId;
-    private Long categoryId;
-    private Long editorId;
-    private Integer publicationYear;
-    private Integer pageCount;
-    private String language;
-    private String coverUrl;
-    private String status;
+    private UUID bookIdDTO;
+    private String titleDTO;
+    private String isbnDTO;
+    private String descriptionDTO;
+    private BigDecimal priceDTO;
+    private Long authorIdDTO;
+    private Long categoryIdDTO;
+    private Long editorIdDTO;
+    private Integer publicationYearDTO;
+    private Integer pageCountDTO;
+    private String languageDTO;
+    private String coverUrlDTO;
+    private String statusDTO;
 }

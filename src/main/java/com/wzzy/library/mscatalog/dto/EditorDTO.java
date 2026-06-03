@@ -11,8 +11,8 @@ import java.util.UUID;
 @AllArgsConstructor
 public class EditorDTO {
 
-    private UUID id;
-    private String name;
-    private String country;
-    private String description;
+    private UUID editorIdDTO;
+    private String nameDTO;
+    private String countryDTO;
+    private String descriptionDTO;
 }
